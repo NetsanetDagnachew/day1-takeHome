@@ -17,24 +17,4 @@
     console.log(data);
    }
   
-//   const displayResults = (results) => {
-//     const ul = document.getElementById('movies');
-//     results.map( movie => {
-//       let li = document.createElement('li');
-//       let poster = document.createElement('img');
-//       let title = document.createElement('h2');
   
-//       poster.src = `${movie.Poster}`;
-//       title.innerHTML = `${movie.Title}`;
-  
-//       li.appendChild(poster);
-//       li.appendChild(title);
-//       ul.appendChild(li);    
-//     });
- // } 
-  
-   getMoviesBySearchTerm('Batman');
-  //  getMoviesBySearchTerm('Angry Men');
-  // getMoviesDetailsById('tt0372784');
-  // // getMoviesDetailsById('tt0372784') "tt0096895"
-  getMoviesDetailsById('tt0372784');
